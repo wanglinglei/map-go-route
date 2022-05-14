@@ -1,0 +1,15 @@
+.page{
+  position: relative;
+}
+.begin-button{
+  width: 100rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  background-color: greenyellow;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+}

@@ -1,0 +1,5 @@
+<view a:if="{{showMap}}" class="page">
+  <map scale="{{scale}}" longitude="{{centerMap.longitude}}" latitude="{{centerMap.latitude}}" markers="{{markers}}" show-location="{{true}}" 
+    polyline="{{polyline}}"></map>
+  <view class="begin-button" onTap="begin">开始</view>
+</view>
